@@ -1,0 +1,21 @@
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\bin\Debug\net6.0-windows\Tool dkhp.exe
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\bin\Debug\net6.0-windows\Tool dkhp.deps.json
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\bin\Debug\net6.0-windows\Tool dkhp.runtimeconfig.json
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\bin\Debug\net6.0-windows\Tool dkhp.dll
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\bin\Debug\net6.0-windows\Tool dkhp.pdb
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.csproj.AssemblyReference.cache
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\App.g.cs
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp_MarkupCompile.cache
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp_MarkupCompile.lref
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.g.resources
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.AssemblyInfoInputs.cache
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.AssemblyInfo.cs
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.csproj.CoreCompileInputs.cache
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.dll
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\refint\Tool dkhp.dll
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.pdb
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\Tool dkhp.genruntimeconfig.cache
+D:\Workspace\Project\Tool-dkhp-2023\windows\Tool dkhp\Tool dkhp\obj\Debug\net6.0-windows\ref\Tool dkhp.dll

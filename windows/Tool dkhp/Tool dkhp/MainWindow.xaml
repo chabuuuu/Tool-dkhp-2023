@@ -1,0 +1,26 @@
+﻿<Window x:Class="Tool_dkhp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tool_dkhp"
+        mc:Ignorable="d"
+        Title="Tool đăng ký học phần UIT" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="2" Content="TOOL ĐĂNG KÝ HỌC PHẦN UIT" HorizontalAlignment="Center" Margin="0,98,0,0" VerticalAlignment="Top" Height="26" Width="180"/>
+        <TextBox x:Name="UsernameBox" Grid.Column="2" HorizontalAlignment="Center" Margin="0,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" TextChanged="TextBox_TextChanged"/>
+        <Button Grid.Column="2" Content="Đăng ký" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Width="280" Height="20" Click="Button_Click"/>
+        <TextBox x:Name="MaLopBox" HorizontalAlignment="Center" Margin="0,284,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="210" Height="71" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="PasswordBox" HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120" Grid.Column="2" TextChanged="TextBox_TextChanged_2"/>
+        <Label Content="Mã lớp muốn đăng ký (Mỗi lớp 1 dòng)" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Button x:Name="Autofill" Content="Tự động điền" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="76" Grid.Column="2" Click="Autofill_Click"/>
+        <Image HorizontalAlignment="Center" Height="48" Margin="0,23,0,0" VerticalAlignment="Top" Width="48" Source="/logo.png" Grid.Column="2"/>
+
+    </Grid>
+</Window>
