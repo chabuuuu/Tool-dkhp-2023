@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\Tool dkhp installer\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\Tool dkhp installer\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Ha Phu\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\Workspace\\Project\\Tool-dkhp-2023\\windows\\Tool dkhp installer\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ha Phu\\AppData\\Roaming\\NuGet\\NuGet.Config",
