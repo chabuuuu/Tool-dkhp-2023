@@ -1,4 +1,4 @@
-('D:\\Workspace\\Project\\Tool dkhp\\build\\tool\\PYZ-00.pyz',
+('D:\\Workspace\\Project\\Tool-dkhp-2023\\build\\tool\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Ha '
    'Phu\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',

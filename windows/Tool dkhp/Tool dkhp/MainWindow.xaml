@@ -16,11 +16,12 @@
         <Label Grid.Column="2" Content="TOOL ĐĂNG KÝ HỌC PHẦN UIT" HorizontalAlignment="Center" Margin="0,98,0,0" VerticalAlignment="Top" Height="26" Width="180"/>
         <TextBox x:Name="UsernameBox" Grid.Column="2" HorizontalAlignment="Center" Margin="0,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" TextChanged="TextBox_TextChanged"/>
         <Button Grid.Column="2" Content="Đăng ký" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Width="280" Height="20" Click="Button_Click"/>
-        <TextBox x:Name="MaLopBox" HorizontalAlignment="Center" Margin="0,284,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="210" Height="71" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="MaLopBox" HorizontalAlignment="Center" Margin="0,276,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="210" Height="71" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
         <TextBox x:Name="PasswordBox" HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120" Grid.Column="2" TextChanged="TextBox_TextChanged_2"/>
-        <Label Content="Mã lớp muốn đăng ký (Mỗi lớp 1 dòng)" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Button x:Name="Autofill" Content="Tự động điền" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="76" Grid.Column="2" Click="Autofill_Click"/>
+        <Label Content="Mã lớp muốn đăng ký (Mỗi lớp 1 dòng)" HorizontalAlignment="Center" Margin="0,248,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Button x:Name="Autofill" Content="Tự động điền" HorizontalAlignment="Center" Margin="0,221,0,0" VerticalAlignment="Top" Width="76" Grid.Column="2" Click="Autofill_Click"/>
         <Image HorizontalAlignment="Center" Height="48" Margin="0,23,0,0" VerticalAlignment="Top" Width="48" Source="/logo.png" Grid.Column="2"/>
+        <CheckBox x:Name="AutoF5" Content="Auto F5" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="363,354,0,0" VerticalAlignment="Top" ToolTip="Tự động refresh trang liên tục cho đến khi đăng ký được học phần" IsChecked="True" RenderTransformOrigin="3.528,1.95" Checked="AutoF5_Checked"/>
 
     </Grid>
 </Window>

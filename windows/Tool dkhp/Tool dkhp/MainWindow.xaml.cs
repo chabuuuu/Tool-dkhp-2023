@@ -31,8 +31,13 @@ namespace Tool_dkhp
         {
             public string username { get; set; }
             public string password { get; set; }
+            public string error { get; set; }
+
+            public string autof5 { get; set; }
 
             public string[] malop { get; set; }
+            public string[] dangkythanhcong { get; set; }
+            public string[] dangkythatbai { get; set; }
 
         }
         public MainWindow()
@@ -141,6 +146,14 @@ namespace Tool_dkhp
             data.username = username;
             data.password = password;
             data.malop = malop.Split('\n');
+            if (AutoF5.IsChecked == true)
+            {
+                data.autof5 = "True";
+            }
+            else
+            {
+                data.autof5 = "False";
+            }
             
             // Ghi dữ liệu trở lại tệp JSON
             string updatedJson = JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true });
@@ -161,7 +174,18 @@ namespace Tool_dkhp
 
             // Chờ cho quá trình kết thúc
             process.WaitForExit();
-            MessageBox.Show("Đăng ký học phần thành công!");
+            if (data.error != null)
+            {
+                MessageBox.Show(data.error);
+            }
+            else
+            {
+                message = "Đăng ký học phần thành công:\n" + string.Join(Environment.NewLine, data.dangkythanhcong) + "Đăng ký học phần thất bại:\n" + string.Join(Environment.NewLine, data.dangkythatbai);
+                MessageBox.Show(message);
+            }
+
+           // MessageBox.Show(string.Join(Environment.NewLine, data.dangkythanhcong));
+
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
@@ -189,6 +213,11 @@ namespace Tool_dkhp
             UsernameBox.Text =  data.username;
             PasswordBox.Text =  data.password;
             MaLopBox.Text = string.Join(Environment.NewLine, data.malop);
+        }
+
+        private void AutoF5_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
