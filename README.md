@@ -1,4 +1,5 @@
 # Tool đăng ký học phần UIT 2023
+<img src="https://raw.githubusercontent.com/chabuuuu/Tool-dkhp-2023/main/screenshot.png" alt ="..." width = "100%"> 
 
 # Hướng dẫn sử dụng
 1. Ở mục releases của repo này, tải "Tool DKHP UIT 1.1" về
