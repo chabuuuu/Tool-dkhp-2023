@@ -1,8 +1,7 @@
 # Tool đăng ký học phần UIT 2023
 
 # Hướng dẫn sử dụng
-1. Vào folder dist
-2. Vào file setting.json, cập nhật username, password của tài khoản UIT
-3. Cập nhật mã lớp muốn đăng ký: vd malop: ["MA003.1", "MA002.3"]
-4. Chạy file tool.exe
-5. Finish!
+1. Ở mục releases của repo này, tải "Tool DKHP UIT 1.0" về
+2. Chạy file installer vừa tải
+3. Cài xong, sẽ thấy shortcut "Tool DKHP UIT" ở desktop
+4. Mở lên và dùng thôi
