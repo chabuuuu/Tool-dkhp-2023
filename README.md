@@ -8,4 +8,5 @@
 
 # Lưu ý
 Hãy chắc chắn rằng máy bạn đã cài sẵn Google Chrome
+
 Tránh cài tool vào ổ C
